@@ -2176,7 +2176,7 @@ class ProductDetailsScreen extends PureComponent<Props, State> {
     let isGest = this.props.profile == undefined;
 
     let check_uri = !this.checkForImage(item.images?.edges[0]?.node.url)
-      ? 'https://mshop.atharvasystem.com/images/default.jpg'
+      ? 'https://mshop.com/images/default.jpg'
       : item.images?.edges[0]?.node.url;
 
     return (
