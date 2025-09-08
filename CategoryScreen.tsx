@@ -211,7 +211,7 @@ class CategoryScreen extends Component<Props, State> {
       buttonColor: 'rgba(255,255,255,0.8)',
       products: [],
       isWishlistAPICalling: false,
-      default_uri: 'https://mshop.atharvasystem.com/images/default.jpg',
+      default_uri: 'https://mshop.com/images/default.jpg',
       isLoading: true,
       isConnectionExpensive: false,
       isConnected: true,
